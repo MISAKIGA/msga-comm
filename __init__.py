@@ -24,7 +24,7 @@ from functools import wraps, reduce
 if __name__ == '__main__':
     logger.debug('作为主程序运行')
 else:
-    logger.debug('common 初始化')
+    logger.debug('msgacomm 初始化')
 
 def test_prepare(search_paths: typing.List[str] = None):
     """

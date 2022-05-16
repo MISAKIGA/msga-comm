@@ -73,7 +73,7 @@ class SettingsLoader(object):
     def register_types(cls, types):
         cls.allow_types.extend(types)
 
-    def load(self, local='localsettings', default='common'):
+    def load(self, local='localsettings', default='msgacomm'):
         """
         加载配置字典
         :param local: 本地配置模块
